@@ -1,3 +1,4 @@
+<html onclick="navigator.vibrate(50)>
 <title>Generatore di voce di talkback</title>
 <h1>Generatore voce talkback</h1>
 <p>Scrivi qualcosa sotto per leggerlo con la voce di talkback (o con quella di google lens se non hai mai attivato il servizio)</p>
@@ -9,5 +10,5 @@
 <br>
 <button onclick="new Audio('https://www.google.com/speech-api/v1/synthesize?lang=it&pitch=0.45&text=' + encodeURIComponent(document.getElementById('testo').value)).play()" accesskey=f>pronuncia con voce italiana femminile </button>
 <br>
-<button onclick="new Audio('https://translate.google.com/translate_tts?client=tw-ob&tl=it-it&q=' + encodeURIComponent(document.getElementById('testo').value)).play()" accesskey=a>Pronuncia con voce assistente google italiano</button>
 <br>
+<p>Le voci per l'assistente google non funzionavano, quindi sono state rimosse.</p>
