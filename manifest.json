@@ -4,5 +4,6 @@
   "background_color": "#000000",
   "short_name": "Generatore voce talkback",
   "id": "generatorevocetalkback",
+"start_url": "/generatore-voce-talkback",
   "description": "Generatore di voce di google talkback (android)"
 }
