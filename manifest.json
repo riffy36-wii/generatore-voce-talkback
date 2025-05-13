@@ -1,0 +1,8 @@
+{
+  "name": "Generatore di voce di talkback",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "short_name": "Generatore voce talkback",
+  "id": "generatorevocetalkback",
+  "description": "Generatore di voce di google talkback (android)"
+}
