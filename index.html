@@ -4,7 +4,6 @@
 </head>
 
 <title>Generatore di voce di talkback</title>
-<br>
 <h1>Generatore voce talkback</h1>
 <p>Scrivi qualcosa sotto per leggerlo con la voce di talkback (o con quella di google lens se non hai mai attivato il servizio)</p>
 <textarea title='Testo' accesskey=t id=testo style="width: 500 PX; "></textarea>
@@ -18,7 +17,14 @@
 <button onclick="new Audio('https://www.google.com/speech-api/v1/synthesize?lang=it&pitch=0.45&text=' + encodeURIComponent(document.getElementById('testo').value)).play()" accesskey=f>pronuncia con voce italiana femminile </button>
 <br>
 <br>
-<button onclick="new Audio('https://translate.google.com/translate_tts?tl=it&client=tw-ob&q=' + encodeURIComponent(document.getElementById('testo').value)).play()" accesskey=a>Pronuncia con voce assistente google italiano</button>
+<button onclick="new Audio('https://www.google.com/speech-api/v1/synthesize?lang=it&client=lr-language-tts&gender=female&text=' + encodeURIComponent(document.getElementById('testo').value)).play()" accesskey=k>Pronuncia con voce assistente google italiano femminile</button>
+<br>
+<br>
+
+<button onclick="new Audio('https://www.google.com/speech-api/v1/synthesize?lang=it&client=lr-language-tts&text=' + encodeURIComponent(document.getElementById('testo').value)).play()" accesskey=a>Pronuncia con voce assistente google italiano</button>
+
+<br>
+<br>
 <br>
 <br>
 <button onclick="new Audio('https://translate.google.com/translate_tts?client=tw-ob&tl=de&q=' + encodeURIComponent(document.getElementById('testo').value)).play()" accesskey=d>Pronuncia con voce tedesca</button>
@@ -34,4 +40,4 @@
 <br>
 <br>
 
-<p>Le voci di google assistant ora funzionano correttamente.</p>
+<p>Finalmente il momento tanto atteso è arrivato! le voci femminili di assistant sono disponibili.</p>
